@@ -1,0 +1,41 @@
+const countries = {
+    uk: "F" ,
+    pl: "H" ,
+    de: "J" ,
+    at: "L" ,
+    chde: "N" ,
+    nl: "P" ,
+    fr: "R" ,
+    chfr: "T" ,
+    es: "V" ,
+    pt: "X" ,
+    it: "Z" ,
+    dk: "AB",
+    no: "AD",
+    fi: "AF",
+    se: "AH",
+    cz: "AJ",
+    sk: "AL",
+    hu: "AN"
+}
+
+export default {
+    uk: ([rangeStart, rangeEnd], country) => countries[country] + rangeStart + ":" + countries[country] + rangeEnd,
+    pl: ([rangeStart, rangeEnd], country) => countries[country] + rangeStart + ":" + countries[country] + rangeEnd,
+    de: ([rangeStart, rangeEnd], country) => countries[country] + rangeStart + ":" + countries[country] + rangeEnd,
+    at: ([rangeStart, rangeEnd], country) => countries[country] + rangeStart + ":" + countries[country] + rangeEnd,
+    chde: ([rangeStart, rangeEnd], country) => countries[country] + rangeStart + ":" + countries[country] + rangeEnd,
+    nl: ([rangeStart, rangeEnd], country) => countries[country] + rangeStart + ":" + countries[country] + rangeEnd,
+    fr: ([rangeStart, rangeEnd], country) => countries[country] + rangeStart + ":" + countries[country] + rangeEnd,
+    chfr: ([rangeStart, rangeEnd], country) => countries[country] + rangeStart + ":" + countries[country] + rangeEnd,
+    es: ([rangeStart, rangeEnd], country) => countries[country] + rangeStart + ":" + countries[country] + rangeEnd,
+    pt: ([rangeStart, rangeEnd], country) => countries[country] + rangeStart + ":" + countries[country] + rangeEnd,
+    it: ([rangeStart, rangeEnd], country) => countries[country] + rangeStart + ":" + countries[country] + rangeEnd,
+    dk: ([rangeStart, rangeEnd], country) => countries[country]  + rangeStart + ":" +  countries[country] + rangeEnd,
+    no: ([rangeStart, rangeEnd], country) => countries[country]  + rangeStart + ":" +  countries[country] + rangeEnd,
+    fi: ([rangeStart, rangeEnd], country) => countries[country]  + rangeStart + ":" +  countries[country] + rangeEnd,
+    se: ([rangeStart, rangeEnd], country) => countries[country]  + rangeStart + ":" +  countries[country] + rangeEnd,
+    cz: ([rangeStart, rangeEnd], country) => countries[country]  + rangeStart + ":" +  countries[country] + rangeEnd,
+    sk: ([rangeStart, rangeEnd], country) => countries[country]  + rangeStart + ":" +  countries[country] + rangeEnd,
+    hu: ([rangeStart, rangeEnd], country) => countries[country]  + rangeStart + ":" +  countries[country] + rangeEnd
+}

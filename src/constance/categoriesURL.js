@@ -1,0 +1,1 @@
+export const CATEGORIES_URL = "http://localhost:5173/src/constance/categories.json"

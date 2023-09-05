@@ -1,0 +1,42 @@
+{
+  "style": {
+    "SE": "Stil",
+    "UK": "Style",
+    "FR": "Style",
+    "CHFR": "Style",
+    "IT": "Stile",
+    "CHDE": "Stil",
+    "DE": "Stil",
+    "AT": "Stil",
+    "HU": "Stílus",
+    "PT": "Estilo",
+    "FI": "Tyyli",
+    "ES": "Estilo",
+    "CZ": "Styl",
+    "NO": "Stil",
+    "NL": "Stijl",
+    "DK": "Stil",
+    "PL": "Styl",
+    "SK": "Styl"
+  },
+  "sort": {
+    "SE": "sort",
+    "UK": "sort",
+    "FR": "sort",
+    "IT": "sort",
+    "CHDE": "sort",
+    "CHFR": "sort",
+    "DE": "sort",
+    "AT": "sort",
+    "HU": "sort",
+    "PT": "sort",
+    "FI": "sort",
+    "ES": "sort",
+    "CZ": "sort",
+    "NO": "sort",
+    "NL": "sort",
+    "DK": "sort",
+    "PL": "sort",
+    "SK": "sort"
+  }
+}
